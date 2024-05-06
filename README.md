@@ -13,27 +13,22 @@ This PHP project comprises various scripts that handle different aspects of a we
 
 ## Installation
 
-1. **Clone the Repository**:
-   ```
-   git clone https://your-repository-url.git
-   ```
-
-2. **Setup Database**:
+1. **Setup Database**:
    - Create a MySQL database for the project.
    - Import the provided SQL file to set up tables:
      ```
      mysql -u username -p database_name < setup.sql
      ```
 
-3. **Configure PHP Scripts**:
+2. **Configure PHP Scripts**:
    - Navigate to the project directory and locate the `connect.php` file inside the `components` folder.
    - Update the database connection settings with your credentials.
 
-4. **Web Server Configuration**:
+3. **Web Server Configuration**:
    - Point your web server to the root directory of the project.
    - Ensure the server is configured to handle PHP files.
 
-5. **Permissions**:
+4. **Permissions**:
    - Set the correct permissions for the `uploaded_files` directory to allow file uploads.
 
 ## Key Components
